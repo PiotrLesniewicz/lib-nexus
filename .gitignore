@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Lib-Nexus specific
+logs/
+*.log
+/src/main/resources/library_manager_drop_all_tabels_ddl.sql
+/src/main/resources/library_manager_truncate_all_tables.sql
+/gradle/wrapper/dists/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13/bin/gradle
+/gradle/wrapper/dists/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13/bin/gradle.bat
